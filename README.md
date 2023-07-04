@@ -1,4 +1,4 @@
-# Milkis hotel [**Figma**](https://github.com/Sukhykh](https://www.figma.com/file/FvOXr8JXlYISUDYppxsvT8/Simple-Hotel-Website-(Community)?type=design&node-id=0-1&mode=design&t=A3OtI6koT6Iq5B0z-0))
+# Milkis hotel [**Figma**](https://www.figma.com/file/FvOXr8JXlYISUDYppxsvT8/Simple-Hotel-Website-(Community)?type=design&node-id=0-1&mode=design&t=A3OtI6koT6Iq5B0z-0)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
