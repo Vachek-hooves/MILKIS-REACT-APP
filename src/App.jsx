@@ -1,18 +1,20 @@
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Header from './components/header/Header.jsx';
+import MainLayout from './layout/MainLayout';
+import Home from './components/home/Home';
+
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <Routes>
-          <Route path="/" element={<MainLayout />}>
+          <Route path="" element={<MainLayout />}>
             <Route index={true} element={<Home />} />
-            <Route path="rooms" element={<Rooms />} />
-            <Route path="facilities" element={<Facilities />} />
-            <Route path="contacts" element={<Contacts />} />
-            <Route path="*" element={<NotFound />} />
+            {/* <Route path="rooms" element={<Rooms />} /> */}
+            {/* <Route path="facilities" element={<Facilities />} /> */}
+            {/* <Route path="contacts" element={<Contacts />} /> */}
+            {/* <Route path="*" element={<NotFound />} /> */}
           </Route>
         </Routes>
       </div>
