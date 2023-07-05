@@ -1,6 +1,11 @@
+import Registration from './registration/Registration';
 
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <Registration />
+    </>
+  );
 };
 
 export default Home;

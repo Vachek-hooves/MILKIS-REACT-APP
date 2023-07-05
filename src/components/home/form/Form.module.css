@@ -1,0 +1,54 @@
+.container {
+  /* size */
+  width: 980px;
+  height: 850px;
+
+  /* margin */
+  margin-inline: auto;
+
+  /* placing */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.formSize {
+  /* From https://css.glass */
+  background: rgba(230, 218, 218, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(3.2px);
+  -webkit-backdrop-filter: blur(3.2px);
+  border: 1px solid rgba(230, 218, 218, 0.04);
+  /* size */
+  width: 400px;
+  height: 500px;
+  /* placing */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formStyling {
+  height: inherit;
+  /* placing */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.h1{
+  color: #fff;
+  text-align: center;
+  font-size: 42px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.slogan{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-family: Roboto;
+font-style: italic;
+font-weight: 400;
+line-height: normal;
+}
