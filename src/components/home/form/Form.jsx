@@ -11,7 +11,7 @@ const Form = () => {
       </div>
       <div className={styles.formSize}>
         <form className={styles.formStyling}>
-          <label>Book a Room</label>
+          <label className={styles.formHeader}>Book a Room</label>
           <label>
             <input type="text" placeholder="your name"></input>
           </label>
@@ -24,9 +24,9 @@ const Form = () => {
           <label>
             <input type="text" placeholder="check in time"></input>
           </label>
-          <button type="submit">
+          <div>
             <HeaderBtn />
-          </button>
+          </div>
         </form>
       </div>
     </div>

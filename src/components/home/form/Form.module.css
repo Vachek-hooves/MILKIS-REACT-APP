@@ -1,6 +1,6 @@
 .container {
   /* size */
-  width: 980px;
+  max-width: 980px;
   height: 850px;
 
   /* margin */
@@ -34,21 +34,41 @@
   flex-direction: column;
   justify-content: space-around;
 }
-.h1{
+.h1 {
   color: #fff;
   text-align: center;
-  font-size: 42px;
+  /* font-size: 42px; */
+  font-size: 3em;
   font-family: Roboto;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
-.slogan{
-    color: #FFF;
-text-align: center;
-font-size: 16px;
-font-family: Roboto;
-font-style: italic;
-font-weight: 400;
-line-height: normal;
+.slogan {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 400;
+  line-height: normal;
+}
+input {
+  border-radius: 5px;
+  width: 200px;
+  height: 26px;
+  align-items: center;
+}
+input::placeholder{
+  padding: 5px;
+  font-size: 16px;
+  align-items: flex-start;
+}
+.formHeader {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  letter-spacing: 0em;
+  color: #fff;
 }
