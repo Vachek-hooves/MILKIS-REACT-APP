@@ -16,13 +16,13 @@ const Form = () => {
             <input type="text" placeholder="your name"></input>
           </label>
           <label>
-            <input type="text" placeholder="your number"></input>
+            <input type="number" placeholder="your number"></input>
           </label>
           <label>
-            <input type="text" placeholder="check in date"></input>
+            <input type="date" placeholder="check in date"></input>
           </label>
           <label>
-            <input type="text" placeholder="check in time"></input>
+            <input type="time" placeholder="check in time"></input>
           </label>
           <div>
             <HeaderBtn />
