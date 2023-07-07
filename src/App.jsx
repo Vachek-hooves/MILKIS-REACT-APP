@@ -4,7 +4,6 @@ import MainLayout from './layout/MainLayout';
 import Home from './components/home/Home';
 import { Rooms } from './components/rooms/Rooms';
 
-
 function App() {
   return (
     <BrowserRouter>
