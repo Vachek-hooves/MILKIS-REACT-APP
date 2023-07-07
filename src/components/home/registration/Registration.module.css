@@ -1,0 +1,27 @@
+/* Registration */
+/* .lobby {
+  background: url(../../../img/home/lobby.jpg);
+  background-size: cover;
+  background-position: center center;
+  overflow-x: hidden;
+  /* height: 60vh; */
+/* }  */
+
+.lobby {
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  .lobby::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url(../../../img/home/lobby.jpg);
+    background-size: cover;
+    background-position: center center;
+    filter: brightness(0.7); 
+    z-index: -1;
+  }

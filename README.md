@@ -1,4 +1,10 @@
-# Milkis hotel [**Figma**](https://www.figma.com/file/FvOXr8JXlYISUDYppxsvT8/Simple-Hotel-Website-(Community)?type=design&node-id=0-1&mode=design&t=A3OtI6koT6Iq5B0z-0)
+# Milkis hotel [**Figma**](<https://www.figma.com/file/FvOXr8JXlYISUDYppxsvT8/Simple-Hotel-Website-(Community)?type=design&node-id=0-1&mode=design&t=A3OtI6koT6Iq5B0z-0>)
+
+KOPYTOV COMMENTS:
+
+- Icons (facebook, instagram, telegram) will be placed to "ui" folder.
+- Images to different components placed to "img" folder.
+- Containers size (home,about, restoran) - are in "general_styles" folder
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
