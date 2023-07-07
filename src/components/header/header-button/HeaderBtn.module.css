@@ -1,0 +1,16 @@
+.btnSize {
+  width: 86px;
+  height: 27px;
+  top: 16px;
+  left: 655px;
+  border-radius: 6px;
+  border: none;
+  background: #c94842;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #ffffff;
+}
