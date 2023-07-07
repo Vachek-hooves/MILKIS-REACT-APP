@@ -1,0 +1,33 @@
+[
+    {
+        "title": "Standart Room",
+        "facilities": {
+            "bathroom": 1,
+            "beds": 2,
+            "people": 2
+        },
+        "price": 30,
+        "img": "standard.png"
+    },
+    {
+        "title": "Twin Room",
+        "facilities": {
+            "bathroom": 1,
+            "beds": 2,
+            "people": 2
+        },
+        "price": 30,
+        "img": "twin.png"
+    },
+    {
+        "title": "Sweet Room",
+        "facilities": {
+            "bathroom": 1,
+            "beds": 2,
+            "people": 2
+        },
+        "price": 40,
+        "img": "sweet.png"
+    }
+]
+

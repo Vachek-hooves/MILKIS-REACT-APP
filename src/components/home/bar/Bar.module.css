@@ -1,0 +1,46 @@
+.bar {
+  position: relative;
+  height: 80vh;
+  overflow-x: hidden;
+}
+
+.bar::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url(../../../img/home/restaurant.jpg);
+  background-size: cover;
+  background-position: center center;
+  filter: brightness(0.8);
+  z-index: -1;
+}
+.barHeader {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.barContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+}
+.barText {
+  padding: 5px;
+  width: 648px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.07em;
+  text-align: center;
+  color: #fff;
+  margin-inline: auto;
+}
