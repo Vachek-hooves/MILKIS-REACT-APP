@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/MILKIS-REACT-APP/static/css/main.22f025fc.css",
-    "main.js": "/MILKIS-REACT-APP/static/js/main.335bdccc.js",
-    "static/media/lobby.jpg": "/MILKIS-REACT-APP/static/media/lobby.394f602defd64f60e0b3.jpg",
-    "static/media/restaurant.jpg": "/MILKIS-REACT-APP/static/media/restaurant.d1bc39a0615f883c4e22.jpg",
-    "static/media/about_800x600.jpg": "/MILKIS-REACT-APP/static/media/about_800x600.a844db53c12c380aab51.jpg",
-    "static/media/slick.svg": "/MILKIS-REACT-APP/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/MILKIS-REACT-APP/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/MILKIS-REACT-APP/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/MILKIS-REACT-APP/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/MILKIS-REACT-APP/index.html",
-    "main.22f025fc.css.map": "/MILKIS-REACT-APP/static/css/main.22f025fc.css.map",
-    "main.335bdccc.js.map": "/MILKIS-REACT-APP/static/js/main.335bdccc.js.map"
+    "main.css": "/static/css/main.584dc1f6.css",
+    "main.js": "/static/js/main.4d76c3d6.js",
+    "static/media/lobby.jpg": "/static/media/lobby.394f602defd64f60e0b3.jpg",
+    "static/media/restaurant.jpg": "/static/media/restaurant.d1bc39a0615f883c4e22.jpg",
+    "static/media/about_800x600.jpg": "/static/media/about_800x600.a844db53c12c380aab51.jpg",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.584dc1f6.css.map": "/static/css/main.584dc1f6.css.map",
+    "main.4d76c3d6.js.map": "/static/js/main.4d76c3d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.22f025fc.css",
-    "static/js/main.335bdccc.js"
+    "static/css/main.584dc1f6.css",
+    "static/js/main.4d76c3d6.js"
   ]
 }
