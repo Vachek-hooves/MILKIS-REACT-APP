@@ -5,7 +5,7 @@ import Home from './components/home/Home';
 import { Rooms } from './components/rooms/Rooms';
 import Facilities from './components/facilities/Facilities';
 import Contacts from './components/contacts/Contacts';
-
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -20,6 +20,9 @@ function App() {
             {/* <Route path="*" element={<NotFound />} /> */}
           </Route>
         </Routes>
+      </div>
+      <div>
+        <Footer />
       </div>
     </BrowserRouter>
   );

@@ -1,5 +1,6 @@
 import About from './about/About';
 import Bar from './bar/Bar';
+import Gallery from './gallery/Gallery';
 import Registration from './registration/Registration';
 
 const Home = () => {
@@ -8,6 +9,7 @@ const Home = () => {
       <Registration />
       <About />
       <Bar />
+      <Gallery />
     </>
   );
 };
