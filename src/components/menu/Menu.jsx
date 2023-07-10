@@ -11,7 +11,7 @@ const Menu = () => {
       </div>
       <nav className={styles.navBody}>
         <NavLink className={styles.linkStyle}
-        to="/hotel/" end>
+        to="/" end>
           Home
         </NavLink>
         <NavLink className={styles.linkStyle}
