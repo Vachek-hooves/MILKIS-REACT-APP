@@ -1,5 +1,5 @@
 import React from 'react';
-import HeaderBtn from '../../header/header-button/HeaderBtn';
+import BookBtn from '../../../ui/BookBtn';
 import styles from './Form.module.css';
 
 const Form = () => {
@@ -24,8 +24,8 @@ const Form = () => {
           <label>
             <input type="time" placeholder="check in time"></input>
           </label>
-          <div>
-            <HeaderBtn />
+          <div className={styles.btnPosition}>
+            <BookBtn/>
           </div>
         </form>
       </div>

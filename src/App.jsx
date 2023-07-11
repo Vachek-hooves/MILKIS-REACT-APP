@@ -15,8 +15,8 @@ function App() {
           <Route path="/" element={<MainLayout />}>
             <Route index={true} element={<Home />} />
             <Route path="/hotel/rooms" element={<Rooms />} />
-            <Route path="facilities" element={<Facilities />} />
-            <Route path="contacts" element={<Contacts />} />
+            <Route path="/hotel/facilities" element={<Facilities />} />
+            <Route path="/hotel/contacts" element={<Contacts />} />
             {/* <Route path="*" element={<NotFound />} /> */}
           </Route>
         </Routes>
