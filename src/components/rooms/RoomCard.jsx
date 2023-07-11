@@ -1,4 +1,4 @@
-import { BookNowBtn } from "./BookNowBtn"
+import { BookNowBtn } from "../BookNowBtn/BookNowBtn"
 import style from './Room.module.css'
 
 export const RoomCard = (props) => {
@@ -11,14 +11,14 @@ export const RoomCard = (props) => {
                 <h2 className={style.roomCard__title}>
                     {title}
                 </h2>
-                <ul className="room-card__facilities">
-                    <li className="room-card__item">
-                        {facilitiesArr.map(item => 
-                            `${item[1]} ${item[0]}`
-                        )}
-                    </li>
+                <ul className={style.roomCard__facilities}>
+                    {facilitiesArr.map(item => 
+                        <li className={style.roomCard__item}>
+                                {item[1]} {item[0]}
+                        </li>
+                    )}
                 </ul>
-                <p className="room-card__price">
+                <p className={style.roomCard__price}>
                     {price} USD per night
                 </p>
                 <BookNowBtn/>

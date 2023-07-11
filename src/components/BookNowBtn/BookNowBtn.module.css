@@ -1,0 +1,24 @@
+.bookNowBtn {
+    display: block;
+    width: fit-content;
+    padding: 6px 12px;
+    background-color: #C94842;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: all linear 0.3s;
+    border: 1px solid #C94842;
+}
+.bookNowBtn:hover,
+.bookNowBtn:focus {
+    box-shadow: 5px 5px #C94842;
+    color: #C94842;
+    background-color: #fff;
+}
+.bookNowBtn:active {
+    opacity: 0.5;
+}
