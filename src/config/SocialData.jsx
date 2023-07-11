@@ -1,19 +1,19 @@
 export const socialData = [
   {
     title: 'ABOUT US',
-    link: '',
+    link: '#',
   },
   {
     title: 'CONTACE US',
-    link: '',
+    link: '/hotel/contacts',
   },
   {
     title: 'ROOMS & RATES',
-    link: '',
+    link: '/hotel/rooms',
   },
   {
     title: 'FACILITIES',
-    link: '',
+    link: '/hotel/facilities',
   },
   {
     title: 'FACEBOOK',

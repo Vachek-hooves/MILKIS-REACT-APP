@@ -13,7 +13,7 @@
 }
 .formSize {
   /* From https://css.glass */
-  background: rgba(230, 218, 218, 0.3);
+  background: rgba(230, 218, 218, 0.15);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(3.2px);
@@ -72,4 +72,7 @@ input::placeholder{
   line-height: 21px;
   letter-spacing: 0em;
   color: #fff;
+}
+.btnPosition{
+  text-align: right;
 }
