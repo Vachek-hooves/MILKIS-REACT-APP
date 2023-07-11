@@ -1,6 +1,13 @@
 .rooms {
     display: flex;
     flex-direction: column;
+}
+.rooms__cardWrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    width: 100%;
+    margin-inline: auto;
     gap: 120px;
     margin-top: 76px;
     margin-bottom: 102px;
@@ -20,6 +27,33 @@
     justify-content: flex-start;
 }
 .roomCard__title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
     color: #4F4F4F;
-    
+    text-transform: capitalize;
+}
+.roomCard__facilities {
+        margin-top: 44px;
+    display: flex;
+    flex-direction: column;
+    list-style-position: inside;
+    gap: 7px;
+}
+.roomCard__item {
+    font-family: inherit;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #4F4F4F;
+}
+.roomCard__price { 
+    margin-top: 7px;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 100%;
+    color: #C94842;
+    margin-bottom: 27px;
 }
