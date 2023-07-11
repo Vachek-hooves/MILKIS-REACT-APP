@@ -4,6 +4,7 @@ import Logo from '../header/logo/Logo';
 import styles from './style/Menu.module.css';
 
 const Menu = () => {
+  const mainPath = process.env.PUBLIC_URL
   return (
     <div className={styles.menuAlign}>
       <div>
@@ -11,19 +12,19 @@ const Menu = () => {
       </div>
       <nav className={styles.navBody}>
         <NavLink className={styles.linkStyle}
-        to="/" end>
+        to={mainPath + '/'} end>
           Home
         </NavLink>
         <NavLink className={styles.linkStyle}
-        to="/hotel/rooms" end>
+        to={mainPath + '/rooms'} end>
           Rooms
         </NavLink>
         <NavLink className={styles.linkStyle}
-        to="/hotel/facilities" end>
+        to={mainPath + '/facilities'} end>
           Facilities
         </NavLink>
         <NavLink className={styles.linkStyle}
-        to="/hotel/contacts" end>
+        to={mainPath + '/contacts'} end>
           Contacts
         </NavLink>
       </nav>
