@@ -11,19 +11,19 @@ const Menu = () => {
       </div>
       <nav className={styles.navBody}>
         <NavLink className={styles.linkStyle}
-        to="." end>
+        to="/" end>
           Home
         </NavLink>
         <NavLink className={styles.linkStyle}
-        to="rooms" end>
+        to="/hotel/rooms" end>
           Rooms
         </NavLink>
         <NavLink className={styles.linkStyle}
-        to="facilities" end>
+        to="/hotel/facilities" end>
           Facilities
         </NavLink>
         <NavLink className={styles.linkStyle}
-        to="contacts" end>
+        to="/hotel/contacts" end>
           Contacts
         </NavLink>
       </nav>

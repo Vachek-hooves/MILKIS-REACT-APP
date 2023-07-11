@@ -1,6 +1,6 @@
 .bar {
   position: relative;
-  height: 80vh;
+  height: auto;
   overflow-x: hidden;
 }
 
