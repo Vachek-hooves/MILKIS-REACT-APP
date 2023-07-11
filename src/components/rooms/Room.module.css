@@ -1,0 +1,25 @@
+.rooms {
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    margin-top: 76px;
+    margin-bottom: 102px;
+}
+.roomCard__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.roomCard__wrapper:nth-child(2n) {
+    flex-direction: row-reverse;
+}
+.roomCard__descr {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.roomCard__title {
+    color: #4F4F4F;
+    
+}
