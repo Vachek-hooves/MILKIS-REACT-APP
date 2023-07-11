@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/hotel/static/css/main.53ca0c47.css",
-    "main.js": "/hotel/static/js/main.ac6f6da6.js",
-    "static/media/lobby.jpg": "/hotel/static/media/lobby.394f602defd64f60e0b3.jpg",
-    "static/media/restaurant.jpg": "/hotel/static/media/restaurant.d1bc39a0615f883c4e22.jpg",
-    "static/media/about_800x600.jpg": "/hotel/static/media/about_800x600.a844db53c12c380aab51.jpg",
-    "static/media/slick.svg": "/hotel/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/hotel/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/hotel/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/hotel/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/hotel/index.html",
-    "main.53ca0c47.css.map": "/hotel/static/css/main.53ca0c47.css.map",
-    "main.ac6f6da6.js.map": "/hotel/static/js/main.ac6f6da6.js.map"
+    "main.css": "/MILKIS-REACT-APP/static/css/main.63b4a3b1.css",
+    "main.js": "/MILKIS-REACT-APP/static/js/main.60fc7819.js",
+    "static/media/lobby.jpg": "/MILKIS-REACT-APP/static/media/lobby.394f602defd64f60e0b3.jpg",
+    "static/media/restaurant.jpg": "/MILKIS-REACT-APP/static/media/restaurant.d1bc39a0615f883c4e22.jpg",
+    "static/media/about_800x600.jpg": "/MILKIS-REACT-APP/static/media/about_800x600.a844db53c12c380aab51.jpg",
+    "static/media/slick.svg": "/MILKIS-REACT-APP/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/MILKIS-REACT-APP/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/MILKIS-REACT-APP/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/MILKIS-REACT-APP/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/MILKIS-REACT-APP/index.html",
+    "main.63b4a3b1.css.map": "/MILKIS-REACT-APP/static/css/main.63b4a3b1.css.map",
+    "main.60fc7819.js.map": "/MILKIS-REACT-APP/static/js/main.60fc7819.js.map"
   },
   "entrypoints": [
-    "static/css/main.53ca0c47.css",
-    "static/js/main.ac6f6da6.js"
+    "static/css/main.63b4a3b1.css",
+    "static/js/main.60fc7819.js"
   ]
 }
