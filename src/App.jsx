@@ -15,9 +15,9 @@ function App() {
         <Routes>
           <Route path={mainPath + '/'} element={<MainLayout />}>
             <Route index={true} element={<Home />} />
-            <Route path="/hotel/rooms" element={<Rooms />} />
-            <Route path="facilities" element={<Facilities />} />
-            <Route path="contacts" element={<Contacts />} />
+            <Route path={mainPath + '/rooms'} element={<Rooms />} />
+            <Route path={mainPath + '/facilities'} element={<Facilities />} />
+            <Route path={mainPath + '/contacts'} element={<Contacts />} />
             {/* <Route path="*" element={<NotFound />} /> */}
           </Route>
         </Routes>

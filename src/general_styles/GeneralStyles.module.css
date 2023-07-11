@@ -4,3 +4,7 @@
     height: 850px;
     margin-inline: auto;
 }
+* {
+    margin: 0;
+    padding: 0;
+}
