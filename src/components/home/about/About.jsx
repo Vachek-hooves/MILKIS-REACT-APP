@@ -6,7 +6,7 @@ const About = () => {
     <div className={`${general_styles.container} ${styles.aboutContainer}`}>
       <div className={styles.aboutDescription}>
         <h2 className={styles.desciptionHeader}>
-          About <span style={{color:'#C94842'}}>Milki’s Hotel</span>{' '}
+          About <span style={{ color: '#C94842' }}>Milki’s Hotel</span>{' '}
         </h2>
         <div className={styles.desciptionText}>
           <p>
@@ -28,7 +28,7 @@ const About = () => {
         </div>
       </div>
       <div className={styles.aboutImg}>
-        <img src={aboutImg}></img>
+        <img src={aboutImg} alt="img"></img>
       </div>
     </div>
   );

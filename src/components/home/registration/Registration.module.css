@@ -4,8 +4,8 @@
   background-size: cover;
   background-position: center center;
   overflow-x: hidden;
-  /* height: 60vh; */
-/* }  */
+  height: 60vh;
+}  */
 
 .lobby {
     position: relative;

@@ -1,6 +1,7 @@
 import React from "react"
 import { getData } from "../../hooks/getData"
 import { RoomCard } from "./RoomCard.jsx"
+import style from './Room.module.css'
 
 export const Rooms = () => {
     const [rooms, setRooms] = React.useState([])
@@ -14,9 +15,8 @@ export const Rooms = () => {
     console.log(rooms)
 
     return (
-        <div>
+        <section className={style.rooms}>
             {rooms.map(item => (<RoomCard item={item} key={item.title}/>))}
-            Hello
-        </div>
+        </section>
     )
 }

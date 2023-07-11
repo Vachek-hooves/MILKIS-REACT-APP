@@ -1,11 +1,14 @@
+import { BookNowBtn } from "./BookNowBtn"
+import style from './Room.module.css'
+
 export const RoomCard = (props) => {
     const { title, facilities, price, img } = props.item
     const imaPath = `${process.env.PUBLIC_URL}/img/${img}`
     const facilitiesArr = Object.entries(facilities)
     return (
-        <div className="room-card__wrapper">
-            <div className="room-card__descr">
-                <h2 className="room-card__title">
+        <div className={style.roomCard__wrapper}>
+            <div className={style.roomCard__descr}>
+                <h2 className={style.roomCard__title}>
                     {title}
                 </h2>
                 <ul className="room-card__facilities">
@@ -18,6 +21,7 @@ export const RoomCard = (props) => {
                 <p className="room-card__price">
                     {price} USD per night
                 </p>
+                <BookNowBtn/>
             </div>
             <div className="room-card__picture">
                 <div className="room-card__img-wrapper">
@@ -30,7 +34,6 @@ export const RoomCard = (props) => {
                     </picture>
                 </div>
             </div>
-            
         </div>
     )
 }
