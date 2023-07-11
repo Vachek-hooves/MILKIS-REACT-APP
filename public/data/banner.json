@@ -1,0 +1,20 @@
+[
+    {
+        "title": "rooms",
+        "img": "rooms-banner.png",
+        "text": "Our rooms and rate",
+        "subtext": null
+    },
+    {
+        "title": "facilities",
+        "img": "facilities-banner.png",
+        "text": "facilities",
+        "subtext": "restaurant - bar - parking"
+    },
+    {
+        "title": "contacts",
+        "img": "contacts-banner.png",
+        "text": "contact us",
+        "subtext": null
+    }
+]
