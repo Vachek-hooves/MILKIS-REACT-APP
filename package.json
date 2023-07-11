@@ -1,7 +1,7 @@
 {
   "name": "hotel-react-app",
   "version": "0.1.0",
-  "homepage": "https://Vachek-hooves.github.io/hotel",
+  "homepage": "https://sukhykh.github.io/milkis-hotel/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -41,7 +41,6 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0",
-    "tailwindcss": "^3.3.2"
+    "gh-pages": "^5.0.0"
   }
 }
