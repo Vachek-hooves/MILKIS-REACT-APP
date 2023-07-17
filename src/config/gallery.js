@@ -1,32 +1,26 @@
+import bed from '../img/home/gallery/bed.png';
+import singleRoom from '../img/home/gallery/single_room.png';
+import superiorRoom from '../img/home/gallery/superior_room.png';
+
 export const galleryData = [
   {
     id: 1,
     name: 'bed room',
-    localImg:"../img/home/bed/gallery/bed.png",
-    image:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/m/mario-kart-8-deluxe-switch/hero?_a=AJADJWI0',
+    localImg: `${bed}`,
   },
   {
     id: 2,
     name: 'single room',
-    localImg:'"../../img/home/gallery/bed.png"',
-    image:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/t/triangle-strategy-switch/hero?_a=AJADJWI0',
+    localImg: `${singleRoom}`,
   },
   {
     id: 3,
     name: 'superior room',
-    localImg:'"../../img/home/gallery/bed.png"',
-    image:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero?_a=AJADJWI0',
+    localImg: `${superiorRoom}`,
   },
   {
     id: 4,
     name: 'superior room',
-    localImg:'"../gallery/bed.png"',
-    image:
-      'https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_auto/c_scale,w_300/v1/ncom/en_US/games/switch/p/pokemon-legends-arceus-switch/hero?_a=AJADJWI0',
+    localImg: `${bed}`,
   },
 ];
-
-console.log(galleryData[0].localImg)

@@ -12,8 +12,9 @@ const Gallery = () => {
   const inlineStyle = {
     display: 'flex',
     flexDirection: 'column',
-    justifyContent: 'center',
+    justifyContent: 'space-evenly',
     padding: '30px',
+    maxWidth: '80%',
   };
   // Button component local style
   const btnStyle = { textAlign: 'center', margin: '20px' };
@@ -58,11 +59,8 @@ const Gallery = () => {
         <Slider {...settings}>
           {galleryData.map((item, index) => (
             <div className="card" key={index}>
-              {/* <div className="card-top"> */}
-              {/* <img src={item.image} alt={item.name} /> */}
               <img src={item.localImg} alt={item.name} />
               <div className="card-bottom">type: {item.name}</div>
-              {/* </div> */}
             </div>
           ))}
         </Slider>

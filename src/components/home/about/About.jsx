@@ -27,8 +27,8 @@ const About = () => {
           </p>
         </div>
       </div>
-      <div className={styles.aboutImg}>
-        <img src={aboutImg} alt="img"></img>
+      <div >
+        <img src={aboutImg} alt="img" className={styles.aboutImg}></img>
       </div>
     </div>
   );
