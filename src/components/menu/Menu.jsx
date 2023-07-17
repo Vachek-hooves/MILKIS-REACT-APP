@@ -1,32 +1,46 @@
-import { NavLink } from 'react-router-dom';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import HeaderBtn from '../header/header-button/HeaderBtn';
 import Logo from '../header/logo/Logo';
 import styles from './style/Menu.module.css';
 
 const Menu = () => {
-  const mainPath = process.env.PUBLIC_URL
+  const [isResponsive, setIsResponsive] = useState(false);
+  const mainPath = process.env.PUBLIC_URL;
+
+  const toggleMenu = () => {
+    setIsResponsive(!isResponsive);
+  };
   return (
     <div className={styles.menuAlign}>
       <div>
         <Logo />
       </div>
-      <nav className={styles.navBody}>
-        <NavLink className={styles.linkStyle}
-        to={mainPath + '/'} end>
+      <button className={styles.responsiveMenuIcon} onClick={toggleMenu}>
+        {isResponsive ? (
+          <i className="fas fa-times"></i>
+        ) : (
+          <i className="fas fa-bars"></i>
+        )}
+      </button>
+      <nav
+        className={
+          isResponsive ? `${styles.responsiveBody}` : `${styles.navBody}`
+        }
+        onClick={() => setIsResponsive(false)}
+      >
+        <Link className={styles.linkStyle} to={mainPath + '/'} end>
           Home
-        </NavLink>
-        <NavLink className={styles.linkStyle}
-        to={mainPath + '/rooms'} end>
+        </Link>
+        <Link className={styles.linkStyle} to={mainPath + '/rooms'} end>
           Rooms
-        </NavLink>
-        <NavLink className={styles.linkStyle}
-        to={mainPath + '/facilities'} end>
+        </Link>
+        <Link className={styles.linkStyle} to={mainPath + '/facilities'} end>
           Facilities
-        </NavLink>
-        <NavLink className={styles.linkStyle}
-        to={mainPath + '/contacts'} end>
+        </Link>
+        <Link className={styles.linkStyle} to={mainPath + '/contacts'} end>
           Contacts
-        </NavLink>
+        </Link>
       </nav>
       <div>
         <HeaderBtn />
